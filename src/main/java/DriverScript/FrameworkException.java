@@ -1,0 +1,9 @@
+package DriverScript;
+
+public class FrameworkException extends RuntimeException {
+	
+	public FrameworkException(String mesg) {
+		super(mesg);
+	}
+
+}
